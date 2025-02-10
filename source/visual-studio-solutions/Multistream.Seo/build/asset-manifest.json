@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wp-content/plugins/multistream-essential-seo/app/static/css/main.ccb5ceaf.css",
+    "main.js": "/wp-content/plugins/multistream-essential-seo/app/static/js/main.c51f604b.js",
+    "static/js/453.b1bd1f21.chunk.js": "/wp-content/plugins/multistream-essential-seo/app/static/js/453.b1bd1f21.chunk.js",
+    "static/media/tick-and-cross.png": "/wp-content/plugins/multistream-essential-seo/app/static/media/tick-and-cross.be61f42f68748dfb8b49.png",
+    "index.html": "/wp-content/plugins/multistream-essential-seo/app/index.html",
+    "main.ccb5ceaf.css.map": "/wp-content/plugins/multistream-essential-seo/app/static/css/main.ccb5ceaf.css.map",
+    "main.c51f604b.js.map": "/wp-content/plugins/multistream-essential-seo/app/static/js/main.c51f604b.js.map",
+    "453.b1bd1f21.chunk.js.map": "/wp-content/plugins/multistream-essential-seo/app/static/js/453.b1bd1f21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccb5ceaf.css",
+    "static/js/main.c51f604b.js"
+  ]
+}

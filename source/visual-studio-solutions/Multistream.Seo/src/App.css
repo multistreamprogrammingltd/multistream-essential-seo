@@ -1,0 +1,99 @@
+.App {
+    text-align: left;
+    padding: 10px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-tick {
+    width: 32px;
+    height: 32px;
+    margin: -20px 0px -8px 0px;
+    pointer-events: none;
+    display: inline-block;
+    background-image: url(tick-and-cross.png);
+    background-size: 200%;
+    background-position: 0px 0px;
+}
+
+.App-cross {
+    width: 32px;
+    height: 32px;
+    margin: -20px 0px -8px 0px;
+    pointer-events: none;
+    display: inline-block;
+    background-image: url(./tick-and-cross.png);
+    background-size: 200%;
+    background-position: 0px 34px;
+}
+
+.content {
+    text-align: left;
+    padding: 10px;
+    color: #4a6bab;
+}
+
+.App-header {
+    background-color: #4a6bab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-header h2 {
+    color: white;
+}
+    .App-description {
+    text-align: left;
+    padding: 10px 20px;
+    color: #4a6bab;
+}
+
+.App-form, .App-summary h2, .App-chart h2 {
+    background: #4a6bab;
+    color: white;
+    padding: 10px 20px;
+}
+
+.App-form input {
+    color: #4a6bab;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    min-width: calc(100% - 400px);
+}
+
+.App-form button {
+    padding: 10px;
+    background: white;
+    cursor: pointer;
+    color: #4a6bab;
+    border: none;
+    border-left: 1px solid #4a6bab;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
