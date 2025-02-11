@@ -151,7 +151,7 @@ function App() {
                         }
 
                         var xhr2 = new XMLHttpRequest();
-                        xhr2.open("GET", 'http://localhost:3000/favicon.ico', true);
+                        xhr2.open("GET", encodeURI(dashboardData.url)+'/favicon.ico', true);
                         xhr2.onreadystatechange = function () {
                             if (this.readyState === XMLHttpRequest.DONE) {
                                 if (this.status === 200) {

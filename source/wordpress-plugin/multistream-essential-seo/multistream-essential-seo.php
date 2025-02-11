@@ -25,5 +25,12 @@ if (!defined('ABSPATH')) {
 add_action( 'admin_menu', 'register_multistream_essential_seo_menu_page' );
 
 function register_multistream_essential_seo_menu_page(){
-add_menu_page( 'Essential SEO', 'Essential SEO', 'manage_options', 'app/index.html', 'multistream_essential_seo_menu_page', 'dashicons-hammer' , 10 ); 
+add_menu_page( 'Essential SEO', 'Essential SEO', 'manage_options', 'multistream-essential-seo/app/index.html', '', 'dashicons-hammer' , 10 ); 
 }
+
+function multistream_essential_seo_menu_page(){
+?>
+<?php
+include('app/index.html');
+}
+?>
