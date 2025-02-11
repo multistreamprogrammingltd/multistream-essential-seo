@@ -7,7 +7,6 @@ Requires PHP: 7.4
 Stable tag: 1.0.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Source Code: https://github.com/multistreamprogrammingltd/multistream-essential-seo
 
 The free Multistream Essential SEO plugin has the best of basic SEO analytics. Get started now!
 
@@ -21,6 +20,8 @@ Multistream Essential SEO Analyzer
 Multistream Essential SEO Analyzer is a powerful WordPress plugin designed to enhance your website’s SEO performance by providing actionable insights and comprehensive analysis. Whether you’re a beginner or an experienced digital marketer, this plugin empowers you with the tools to optimize your content, improve search rankings, and drive more traffic to your website.
 
 Thank you for choosing Multistream Essential SEO Analyzer! Optimize smarter, rank higher.
+
+Source Code: https://github.com/multistreamprogrammingltd/multistream-essential-seo
 
 ## Authors
 - https://www.linkedin.com/in/peter-lackeyMultistream Essential SEO Analyzer
