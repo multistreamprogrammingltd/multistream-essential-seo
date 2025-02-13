@@ -20,7 +20,7 @@
     margin: -20px 0px -8px 0px;
     pointer-events: none;
     display: inline-block;
-    background-image: url(tick-and-cross.png);
+    background-image: url(../media/tick-and-cross.png);
     background-size: 200%;
     background-position: 0px 0px;
 }
