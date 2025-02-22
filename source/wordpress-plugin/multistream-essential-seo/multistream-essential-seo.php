@@ -26,7 +26,7 @@ add_action( 'admin_menu', 'register_multistream_essential_seo_menu_page' );
 
 function register_multistream_essential_seo_menu_page()
 {
-        add_options_page('Essential SEO', 'Essential SEO', '8', 'editglobalcustomfields', 'editglobalcustomfields');
+    add_menu_page('Essential SEO', 'Essential SEO', '8', 'multistream_essential_seo_menu_page', 'multistream_essential_seo_menu_page');
 }
 
 function multistream_essential_seo_menu_page(){
