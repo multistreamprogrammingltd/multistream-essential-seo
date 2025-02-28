@@ -10,6 +10,12 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 The free Multistream Essential SEO plugin has the best of basic SEO analytics. Get started now!
 
+== Screenshots ==
+1. [Screenshot-1.jpg] - Clicking Activate Plugin.
+2. [Screenshot-2.jpg] - Click Essential SEO in menu.
+3. [Screenshot-3.jpg] - Here you can see it's already run a quick SEO check on the page "https://playground.wordpress.net"
+4. [Screenshot-4.jpg] - Here you can see I've changed the URL to "multistreamprogramming.com" and clicked the Analyze button. This has shown an error as the website is protected by cross site permissions. But this shows that you can point the analyser at any URL. It's advised just to put URLs in on the hosted website.
+
 ## Plugin name
 multistream-essential-seo
 
@@ -25,18 +31,6 @@ Source Code: https://github.com/multistreamprogrammingltd/multistream-essential-
 
 ## Authors
 - https://www.linkedin.com/in/peter-lackeyMultistream Essential SEO Analyzer
-
-## Installation
-
-- Download the plugin ZIP file from the WordPress Plugin Directory or from your account.
-
-- Log in to your WordPress admin dashboard.
-
-- Navigate to Plugins > Add New.
-
-- Click Upload Plugin and select the downloaded ZIP file.
-
-- Click Install Now and then Activate Plugin once the installation is complete.
 
 ## Frequently Asked Questions (FAQs)
 
@@ -74,13 +68,13 @@ A: Yes, the plugin can be used on multiple sites depending on your license type.
     
 ## Usage/Examples
 
-After activation, go to SEO Analyzer in your WordPress admin menu.
+After activation, go to "Essential SEO" in your WordPress admin menu.
 
 Run a quick SEO audit by entering a page or post URL and click the Analyze button.
 
 Review the analysis report for keyword usage, meta tags, headings, and more.
 
-Implement the provided suggestions to optimize your content.
+Implement the provided suggestions to your website to optimize your content.
 
 Re-run the analysis to monitor improvements.
 
