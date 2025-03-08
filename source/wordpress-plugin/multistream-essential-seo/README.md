@@ -4,7 +4,7 @@ Tags: seo
 Requires at least: 6.3
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -92,13 +92,16 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 6.7.1
 
 ## Stable tag
-1.0.4
+1.0.5
 
 ## Support
 
 For assistance, visit our Support Center or contact us at support@multistreamprogramming.com We’re here to help with installation, troubleshooting, and optimization tips.
 
 ## Changelog
+Version 1.0.5
+
+Allow for different plugin directory name other that multistream-essential-seo (due to compressed folder name) that was causing blank screen.
 
 Version 1.0.4
 
