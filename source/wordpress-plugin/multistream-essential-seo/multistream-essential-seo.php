@@ -24,6 +24,14 @@ if (!defined('ABSPATH')) {
 
 add_action( 'admin_menu', 'register_multistream_essential_seo_menu_page' );
 
+function multistream_essential_seo_init() {
+    wp_register_script( 'multistream_essential_seo_script', '/wp-content/plugins/'.wp_basename(dirname(__FILE__)).'/app/static/js/main.c51f604b.js', array( 'jquery' ) );
+    wp_enqueue_script( 'multistream_essential_seo_script' );
+    wp_register_style( 'multistream_essential_seo_style', '/wp-content/plugins/'.wp_basename(dirname(__FILE__)).'/app/static/css/main.ccb5ceaf.css', array( 'jquery' ) );
+    wp_enqueue_style( 'multistream_essential_seo_style' );	
+}
+add_action( 'init', 'load_jquery' ); // end jQuery
+
 function register_multistream_essential_seo_menu_page()
 {
     add_menu_page('Essential SEO', 'Essential SEO', '8', 'multistream_essential_seo_menu_page', 'multistream_essential_seo_menu_page');
@@ -31,9 +39,6 @@ function register_multistream_essential_seo_menu_page()
 
 function multistream_essential_seo_menu_page(){
 ?>
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Multistream SEO Analyzer"/><title>Essential SEO</title>
-<script defer="defer" src="/wp-content/plugins/<?php echo basename(dirname(__FILE__));?>/app/static/js/main.c51f604b.js"></script>
-<link href="/wp-content/plugins/<?php echo basename(dirname(__FILE__));?>/app/static/css/main.ccb5ceaf.css" rel="stylesheet"></head><body>
-<noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<html><div id="root"></div></body></html>
 <?php
 }
