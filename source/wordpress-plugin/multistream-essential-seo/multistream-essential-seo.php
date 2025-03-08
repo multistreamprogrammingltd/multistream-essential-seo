@@ -25,9 +25,9 @@ if (!defined('ABSPATH')) {
 add_action( 'admin_menu', 'register_multistream_essential_seo_menu_page' );
 
 function multistream_essential_seo_init() {
-    wp_register_script( 'multistream_essential_seo_script', '/wp-content/plugins/'.wp_basename(dirname(__FILE__)).'/app/static/js/main.c51f604b.js', array( 'jquery' ) );
-    wp_enqueue_script( 'multistream_essential_seo_script' );
-    wp_register_style( 'multistream_essential_seo_style', '/wp-content/plugins/'.wp_basename(dirname(__FILE__)).'/app/static/css/main.ccb5ceaf.css', array( 'jquery' ) );
+    wp_register_script( 'multistream_essential_seo_script', '/wp-content/plugins/'.wp_basename(dirname(__FILE__)).'/app/static/js/main.c51f604b.js', array( 'jquery' ), '1.0.5' );
+    wp_enqueue_script( 'multistream_essential_seo_script', '', '', true );
+    wp_register_style( 'multistream_essential_seo_style', '/wp-content/plugins/'.wp_basename(dirname(__FILE__)).'/app/static/css/main.ccb5ceaf.css', array( 'jquery' ), '1.0.5' );
     wp_enqueue_style( 'multistream_essential_seo_style' );	
 }
 add_action( 'init', 'load_jquery' ); // end jQuery
